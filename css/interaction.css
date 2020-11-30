@@ -1,1 +1,70 @@
+/*created by jg */
+body{
+  background-color:#f0f0f0;
+}
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box; /*put the content and don't push content out if you want to add padding */
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:bold;
+}
+
+video{
+  width:100%;
+  height:auto;
+}
+
+img{
+  float:left;
+  margin-right:25px;
+}
+
+.container{
+  margin-top:20px; 
+}
+.descArea{
+  background-color:#fff;
+  box-shadow:0 0 3px #c8c8c8;
+  padding: 15px;
+}
+
+.videoArea{
+  position:relative;
+}
+.box1{
+  position:absolute;
+  background-color:rgba(40,169,220, 0.3);
+  width:200px;
+  height:200px;
+  top:50px;
+  left:630px;
+  /*position of the clickable box*/
+  cursor:pointer;
+  z-index:1;
+}
+
+.box2{
+  position:absolute;
+  background-color:rgba(207,50,53, 0.3);
+  width:200px;
+  height:200px;
+  top:70px;
+  left:150px;
+  /*position of the clickable box*/
+  cursor:pointer;
+  z-index:1;
+}
+
+/* Persona */
+.lightbox{
+  display:none;
+}
+
+.longBtns
+{
+  display:block;
+}
